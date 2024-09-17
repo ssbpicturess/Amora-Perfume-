@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main{
+    height: 100%;
+    width: 100vw;
+} */
+
+#nav-1{
+    display: flex;
+    justify-content: space-between;
+    height: 6em;
+    background: radial-gradient(circle, rgb(19, 17, 18) 33%, rgb(49, 68, 93) 95%);
+}
+#nav-1 .nav-part-a .logo{
+    margin-left:  8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase; 
+    color: rgb(4, 13, 41);
+}
+
+.nav-part-a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.nav-part-a  .inp{
+    width: 25em;
+    height: 3em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding-left: 15px;
+    border: 2px solid rgb(15, 22, 29);
+    
+}
+.search{
+    display: flex;
+    font-weight: 600;
+}
+#nav-1 .search i{
+
+    height: 2.5em;
+    border: 1px solid black; 
+    padding: 8px 7px;
+    margin-right: 2px;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em; 
+    background-color: white;
+    border: 2px solid rgb(15, 22, 29);
+    
+}
+
+#nav-1 .nav-part-b{
+    display: flex;
+    align-items: center;
+    
+}
+#nav-1 .nav-part-b button{
+    margin-right: 3em;
+    height: 3em;
+    width: 7em;
+    border: 1px solid black;
+    border-radius: 2em;
+}
+
+.nav-part-b button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}
+
+/* --------------------------------------------------------- */
+
+#nav-2{
+    height: 4em;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+ #nav-2 ul{ 
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+} 
+
+#nav-2 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2em;
+    border-right: 0.5px solid white;
+    padding-right: 0.5em;
+    font-weight: 550;
+}
+
+#nav-2 li a:hover{
+    color: crimson;
+    transition: all ease 0.3s;
+}
+
+#nav-2 .sale{
+    color: crimson;
+    font-weight: 550;
+}
+
+/* navbar complete here------------------------ */
+
+
+
+#page-1 img{
+    height: calc(100vh - 10em);
+    width: 100vw;
+    position: relative;
+}
+.page-1-text{
+    position: absolute;
+    color: white;
+    z-index: 9;
+    margin-top: 10em;
+    margin-left: 53em;
+}
+
+.page-1-text h1{
+    font-size: 7.5em;
+    font-family: "Italianno", cursive;
+    letter-spacing: 2px;
+    padding-left: 1.5em;
+    font-weight: 400;
+}
+
+.page-1-text p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: large;
+    padding: 10px 0px;
+}
+
+.page-1-text button{
+    height: 3em;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    padding: 5px ;
+    text-transform: uppercase;
+    font-weight: 550;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: radial-gradient(circle, rgb(88, 47, 47) 33%, rgb(8, 18, 31) 95%);
+    margin-top: 2em;
+    margin-left: 17em;
+}
+
+#logo-of-brands{
+    height: 5em;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-of-brands img{
+    height: 3em;
+    margin: 0px 1em;
+
+}
+
+/* yaha se cart ka work-------------------- */
+
+#best-sellers{
+    /* height: 30em; */
+    width: 100vw;
+   
+}
+#best-sellers h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+    background: radial-gradient(circle, rgb(21, 26, 35) 33%, rgb(73, 75, 78) 95%);
+    height: 2.5em;
+    align-items: center;
+}
+#best-product{
+    height: 20em;
+    width: 14em;
+    background-color: white;
+    /* background: radial-gradient(circle, rgba(255, 255, 255, 0.959) 0%, rgba(239, 236, 236, 0.118) 95%); */
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    box-shadow:  1px 2px 5px rgb(14, 13, 14);
+}
+#best-product img{
+    height: 10em;
+    margin-top: 1.5em;
+
+}
+#best-product h4{
+    margin-top: 10px;
+}
+#best-product p{
+    font-size: x-small;
+    padding: 5px 10px;
+}
+#best-product button{
+    margin-top: 5px;
+    padding: 5px 35px;
+    background: radial-gradient(circle, rgba(6, 56, 75, 0.959) 0%, rgb(118, 189, 251) 95%);
+    color: white;
+    font-size: 0.8em;
+}
+
+#product-best-sellers{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(161, 161, 151);
+    background: radial-gradient(circle, rgb(164, 164, 148) 0%, rgba(0,0,0,1) 69%);
+    height: 27em;
+    align-items: center;
+}
+#best-product .RS{
+    margin-top: 4px;
+    color: crimson;
+
+}
+
+
+/* second cart ki coding sirf main id ka name chng kiye h -----  */
+
+#new-arrivals{
+    /* height: 30em; */
+    width: 100vw;
+    border-bottom: 1px solid black;
+    
+}
+#new-arrivals h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+    background: radial-gradient(circle, rgb(21, 26, 35) 33%, rgb(73, 75, 78) 95%);
+    height: 2.5em;
+    align-items: center;
+
+}
+
+#new-arrivals-sellers{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 11%, rgba(93,91,82,1) 81%);
+    height: 27em;
+    align-items: center;
+}
+
+/* third cart ki coding sirf main id ka name chng kiye h -----  */
+
+#gift-sets{
+    /* height: 30em; */
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+
+#gift-sets h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+    background: radial-gradient(circle, rgb(21, 26, 35) 33%, rgb(73, 75, 78) 95%);
+    height: 2.5em;
+    align-items: center;
+}
+
+#gift-sets-sellers{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(161, 161, 151);
+    background: radial-gradient(circle, rgb(164, 164, 148) 0%, rgba(0,0,0,1) 69%);
+    height: 27em;
+    align-items: center;
+    
+}
+
+/* cart wali coding khatm ------------- */
+
+#strip-text{
+    height: 100%;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+#strip-text #text{
+    height: 5em;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(168, 163, 163);
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+#text .overlay{
+    height: 5em ;
+    width: 100vw;
+    background: rgb(163,211,236);
+    background: radial-gradient(circle, rgba(163,211,236,1) 0%, rgba(133,176,199,1) 2%, rgb(62, 118, 158) 77%, rgba(22,43,59,1) 100%, rgba(22,43,59,1) 100%);
+    position: absolute;
+    top: -100px;
+    transition: all ease 0.3s;
+    
+    
+}
+#text:hover .overlay{
+    top: 0;
+    
+}
+
+#text h3 a{
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    padding: 0px 30px;
+    position: relative;
+    z-index: 9;
+    
+}
+
+#text button{
+    margin-right: 2em;
+    height: 2em;
+    width: 2.5em;
+    position: relative;
+}
+
+/* last page wali coding --------------- */
+
+#last-page{
+    height: 100vh;
+    width: 100vw;
+   padding-top: 40px;
+   
+}
+#last-page h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#last-page p{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    padding: 0.5em 12em;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+#photo{
+    display: flex;
+    justify-content: space-evenly;    
+    margin-left: 6em;
+
+}
+
+#photo img{
+    height: 14em;
+    margin: 1em;
+}
+
+/* footer ki coding start ------------- */
+
+
+#footer{
+    height: 8em;
+    width: 100vw;
+    background: radial-gradient(circle, rgb(28, 30, 33) 33%, rgb(35, 36, 36) 95%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+#footer .footer-link{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: large;
+}
+
+#footer .footer-link a{
+    text-decoration: none;
+    color: rgb(200, 191, 191);
+    margin-right: 2em;
+    
+}
+
+#footer h4{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin:0.5em;
+    font-size: xx-large;
+    color: rgb(2, 3, 3);
+}
+
+
+
+
+/* some media query is here --------------> */
+
+
+@media (min-width: 350px) and (max-width:500px) {
+    #nav-1{
+        width: 100vw;
+    }
+    #nav-1 .nav-part-a{
+        width: 60vw;
+    }
+    #nav-1 .nav-part-a h2{
+        font-size: large;
+    }
+    #nav-1 .nav-part-a input{
+        width: 4em;
+        
+    }
+    #nav-1 .nav-part-b{
+        width: 40vw;
+    }
+    .nav-part-b a{
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        
+    }
+    
+}
+@media (min-width: 350px) and (max-width:500px){
+    #page-1{
+        width: 100vw;
+        object-fit: cover;
+        
+    }
+    .page-1-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 70vw;
+    }
+}
+
+
+@media (min-width:350px) and (max-width: 500px){
+    #product-best-sellers{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 2em 0em;
+    }
+    #best-product{
+        width: 70vw;
+        margin: 1em;
+        margin: 2em 0em;
+        
+    }
+    #strip-text #text{
+        height: 2em;
+    }
+    #strip-text #text h3 a{
+        font-size: 0.6em;
+    }
+    #strip-text #text button{
+        height: 1.5em;
+        width: 1.5em;
+    }
+    #last-page{
+        height: auto;
+        
+    }
+    #last-page p{
+        width: 80vw;
+        padding: 0.5em;
+        padding-left: 2em;
+        text-align: center;
+    }
+    #last-page h1{
+        padding: 0.5em;
+        
+    }
+   #last-page #photo{
+    flex-direction: column;
+    height: 50em;
+    
+   }
+}
+
+@media (min-width:350px) and (max-width: 500px){
+    #new-arrivals-sellers{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 2em 0em;
+    }
+    #best-product{
+        width: 70vw;
+        margin: 1em;
+    }
+}
+
+@media (min-width:350px) and (max-width: 500px){
+    #gift-sets-sellers{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 2em 0em;
+    }
+    #best-product{
+        width: 70vw;
+        margin: 1em;
+    }
+}
+
+@media (min-width:350px) and (max-width: 500px){
+    #footer{
+        width: 100vw;
+        height: 6em;
+    }
+    #footer .footer-link{
+        width: 80vw;
+        text-align: center;
+    }
+    .footer-link h5{
+        font-size: 8px;
+        
+        
+    }
+    #footer h4{
+        font-size: 0.6em;
+        margin-top: 5px;
+    }
+    .social-link i{
+        font-size: 0.5em;
+        padding-top: 0;
+    }
+
+    #logo-of-brands{
+        height: auto;
+        flex-direction: column;
+    }
+    #logo-of-brands img{
+        border-bottom: 1px solid grey;
+        width: 60vw;
+    }
+
+
+}
